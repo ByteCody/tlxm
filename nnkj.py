@@ -242,6 +242,7 @@ def tj2(token, video_sec, course_id, current_course_details_id):
                 print("观看进度更新成功")
             else:
                 print(f"更新失败: {response_data.get('msg', '无详细错误信息')}")
+                return None
         else:
             print(f"请求失败: 状态码 {response.status_code}")
 
