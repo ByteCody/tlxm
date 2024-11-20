@@ -201,9 +201,9 @@ def kgg(token):
                 print("看广告成功")
 
 
-            else:
-                
-                print("看广告失败")
+            else:   
+                print("看广告失败,可能IP已黑")
+                print(f"错误信息: {data}")
         else:
             
             print(f"请求失败，状态码: {response.status_code}")
