@@ -1,8 +1,5 @@
 /*
-自行抓包把开头new.tianji里面的token和deviceid(一般在请求头里)填到变量 nnck 中, 多账号@隔开
-如里面没有deviceid信息，自己手动输入一下16字符 数字和小写英文：5b2ba7c690f96c52 随便改一下再用
 
-单号变量配置：
 export nnck="token&deviceid"
 
 export nnck="token&deviceid@token1&deviceid1@token2&deviceid2"
